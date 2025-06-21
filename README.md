@@ -63,7 +63,7 @@ Once the VM is created:
    ```bash
    sudo apt update
    sudo apt upgrade -y
-````
+    ````
 
 2. Install **WireGuard**:
 
