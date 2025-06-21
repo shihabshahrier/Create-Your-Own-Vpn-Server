@@ -28,10 +28,11 @@ This guide will walk you through creating a **VPN server** using **Google Cloud 
    - **Name**: `vpn-server`
    - **Region**: Choose a region near you (e.g., `us-central1`).
    - **Machine type**: Select the **`e2-micro`** machine type (this is part of the **Always Free Tier**).
-   - **Boot disk**: Select **Ubuntu 22.04 LTS**.
+   - **Boot disk**: Select **Ubuntu 22.04 LTS** or another Debian-based distribution.
 4. Scroll to **Networking**, click **Add network interface** and select your default VPC.
-5. **Add tags**: `wireguard-vpn` (for easier firewall management).
-6. Click **Create**.
+5. Don't forget to turn on **IP forwarding** for your VM.
+6. **Add tags**: `wireguard-vpn` (for easier firewall management).
+7. Click **Create**.
 
 ---
 
